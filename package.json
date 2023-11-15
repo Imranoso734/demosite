@@ -4,7 +4,8 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/main.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/main.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/main.css -o ./dist/output.css"
   },
   "keywords": [],
   "author": "",
